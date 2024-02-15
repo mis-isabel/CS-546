@@ -1,0 +1,49 @@
+/* You will create a CSS stylesheet in /public/css/styles.css; this file should have at least 5 rulesets.  You will need to utilize all 5 rulesets on each of the pages (not every page has to use all 5 rulesets each but all 5 rulesets must be utilized by the various pages in your application).  So you can have some rulesets for one page, some for another page but there needs to be at least 5 total rulesets that are used between all the pages.  */
+
+
+html{
+    font-size:18pt;
+}
+
+body {
+    font-family: fantasy, chalkduster;
+    background-color: #99CCFF;
+}
+
+main {
+    padding-top:2em;
+}
+
+h1 {
+    display: block;
+    text-align: right;
+}
+
+button{
+    background: purple;
+    border: 5px salmon;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+form > label {
+    font-weight: italic;
+}
+
+input[type=text] {
+    padding: 10%;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a:visited {
+    color: rgb(72, 140, 8);
+}
+
+a:hover {
+    color: #606f7e;
+}

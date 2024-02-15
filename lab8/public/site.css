@@ -1,0 +1,64 @@
+/*This file should have 10 CSS rulesets */
+
+html{
+    font-size:18pt;
+}
+
+body {
+    font-family: fantasy, chalkduster;
+    background-color: #99CCFF;
+}
+
+main {
+    padding-top:2em;
+}
+
+h1 {
+    display: block;
+    text-align: right;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-top: 30px;
+}
+
+button{
+    background: purple;
+    border: 5px salmon;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+form > label {
+    font-weight: italic;
+}
+
+input[type=text] {
+    padding: 10%;
+}
+
+ul li{
+    list-style: circle;
+    padding: 10px;
+    margin-top: 2em;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a:link {
+    color: #084A8C;
+}
+
+a:visited {
+    color: rgb(72, 140, 8);
+}
+
+a:hover {
+    color: #606f7e;
+}

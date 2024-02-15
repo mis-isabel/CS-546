@@ -1,0 +1,68 @@
+/*
+You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+html{
+    font-size:18pt;
+}
+
+body {
+    font-family: fantasy, chalkduster;
+    background-color: #99CCFF;
+}
+
+main {
+    padding-top:2em;
+}
+
+h1 {
+    display: block;
+    text-align: right;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-top: 30px;
+}
+
+button{
+    background: purple;
+    border: 5px salmon;
+}
+
+button:hover{
+    color: rgb(102, 126, 96);
+    box-shadow: inset 100px 0 0 0 #54d68a;
+    cursor:pointer;
+}
+
+form > label {
+    font-weight: italic;
+}
+
+input[type=text] {
+    padding: 10%;
+}
+
+ul li{
+    list-style: circle;
+    padding: 10px;
+    margin-top: 2em;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.prime {
+    color: #00ff00;
+}
+
+.not-prime{
+    color: #ff0000;
+}
+
+footer:hover{
+    transform: skew(-10deg);
+}

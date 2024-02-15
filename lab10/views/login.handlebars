@@ -1,0 +1,22 @@
+{{!--
+
+login form handlebar template
+
+--}}
+
+<main>
+  <header>
+    <h1>Login</h1>
+  </header>
+  <form action="/login" method="POST" id="login-form">
+        <label for="emailAddressInput">Email Address:</label>
+        <input type="email" name="emailAddressInput" id="emailAddressInput" placeholder="Email Address"><br>
+        <label for="passwordInput">Password:</label>
+        <input type="password" name="passwordInput" id="passwordInput" placeholder="Password"><br>
+        {{#if errors}}
+        <p class="inputError">{{error}}</p>
+        {{/if}}
+        <button type="submit" class="submitButton">Submit</button>
+        <a href="/register">No account? Register now!</a>
+  </form>
+</main>
